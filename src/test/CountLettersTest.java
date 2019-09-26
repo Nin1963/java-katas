@@ -4,9 +4,9 @@ import org.junit.Test;
 public class CountLettersTest {
 
     @Test
-    public void testTrue() throws Exception {
-        Assert.assertEquals(true, true);
-    }
+    public void testCountLetters() throws Exception {
+        CountLetters myCountLetters = new CountLetters();
+        Assert.assertEquals(5, myCountLetters.findLetterCount("abracadabra", "a"));
 
-    // TODO
+    }
 }
